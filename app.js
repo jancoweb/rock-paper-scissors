@@ -81,10 +81,6 @@ function gameOn(select){
     pScore++
   }
   
-  // document.querySelector('#cSelect-1').classList.remove('selecionado');
-  // document.querySelector('#cSelect-2').classList.remove('selecionado');
-  // document.querySelector('#cSelect-3').classList.remove('selecionado');
-
   document.querySelector('.cSelect-1').classList.remove('selecionado')
   document.querySelector('.cSelect-2').classList.remove('selecionado')
   document.querySelector('.cSelect-3').classList.remove('selecionado')
