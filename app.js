@@ -63,7 +63,7 @@ function gameOn(select){
     result.innerHTML=`Game Draw, try again`;
   } else if (pSelect == 1 & cSelect == 2) {
     result.innerHTML=`Paper wrap the rock, Computer Wins!`
-    cScore = cScore + 1
+    cScore++
   } else if (pSelect == 1 & cSelect == 3) {
     result.innerHTML=`Rock breaks scissors, ${player} Wins!`
     pScore++
@@ -72,10 +72,10 @@ function gameOn(select){
     pScore++
   } else if (pSelect == 2 & cSelect == 3) {
     result.innerHTML=`Scissors cuts paper, Computer Wins!`
-    cScore = cScore + 1
+    cScore++
   } else if (pSelect == 3 & cSelect == 1) {
     result.innerHTML=`Rock breaks scissors, Computer Wins!`
-    cScore = cScore + 1
+    cScore++
   } else if (pSelect == 3 & cSelect == 2) {
     result.innerHTML=`Scissors cuts paper, ${player} Wins!`
     pScore++
