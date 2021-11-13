@@ -37,9 +37,9 @@ function gameStart() {
             <span class="computer-score"></spa>
           </div>
           <ul id="computerChoice">
-            <li><a class="cSelect-1"><img src="/p6_PedraPapelTesoura/img/rock.png"></a></li>
-            <li><a class="cSelect-2"><img src="/p6_PedraPapelTesoura/img/paper.png"></a></li>
-            <li><a class="cSelect-3"><img src="/p6_PedraPapelTesoura/img/scisors.png"></a></li>
+            <li><a class="cSelect-1"><img src="img/rock.png"></a></li>
+            <li><a class="cSelect-2"><img src="img/paper.png"></a></li>
+            <li><a class="cSelect-3"><img src="img/scisors.png"></a></li>
           </ul>
         </div>
   `
